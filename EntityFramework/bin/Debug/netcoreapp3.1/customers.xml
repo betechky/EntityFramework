@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfCustomers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customers>
+    <Id>1</Id>
+    <Company>Company A</Company>
+    <LastName>Bedecs</LastName>
+    <FirstName>Anna</FirstName>
+    <JobTitle>Owner</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 1st Street</Address>
+    <City>Seattle</City>
+    <StateProvince>WA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>2</Id>
+    <Company>Company B</Company>
+    <LastName>Gratacos Solsona</LastName>
+    <FirstName>Antonio</FirstName>
+    <JobTitle>Owner</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 2nd Street</Address>
+    <City>Boston</City>
+    <StateProvince>MA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>3</Id>
+    <Company>Company C</Company>
+    <LastName>Axen</LastName>
+    <FirstName>Thomas</FirstName>
+    <JobTitle>Purchasing Representative</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 3rd Street</Address>
+    <City>Los Angelas</City>
+    <StateProvince>CA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>4</Id>
+    <Company>Company D</Company>
+    <LastName>Lee</LastName>
+    <FirstName>Christina</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 4th Street</Address>
+    <City>New York</City>
+    <StateProvince>NY</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>5</Id>
+    <Company>Company E</Company>
+    <LastName>O’Donnell</LastName>
+    <FirstName>Martin</FirstName>
+    <JobTitle>Owner</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 5th Street</Address>
+    <City>Minneapolis</City>
+    <StateProvince>MN</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>6</Id>
+    <Company>Company F</Company>
+    <LastName>Pérez-Olaeta</LastName>
+    <FirstName>Francisco</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 6th Street</Address>
+    <City>Milwaukee</City>
+    <StateProvince>WI</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>7</Id>
+    <Company>Company G</Company>
+    <LastName>Xie</LastName>
+    <FirstName>Ming-Yang</FirstName>
+    <JobTitle>Owner</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 7th Street</Address>
+    <City>Boise</City>
+    <StateProvince>ID</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>8</Id>
+    <Company>Company H</Company>
+    <LastName>Andersen</LastName>
+    <FirstName>Elizabeth</FirstName>
+    <JobTitle>Purchasing Representative</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 8th Street</Address>
+    <City>Portland</City>
+    <StateProvince>OR</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>9</Id>
+    <Company>Company I</Company>
+    <LastName>Mortensen</LastName>
+    <FirstName>Sven</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 9th Street</Address>
+    <City>Salt Lake City</City>
+    <StateProvince>UT</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>10</Id>
+    <Company>Company J</Company>
+    <LastName>Wacker</LastName>
+    <FirstName>Roland</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 10th Street</Address>
+    <City>Chicago</City>
+    <StateProvince>IL</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>11</Id>
+    <Company>Company K</Company>
+    <LastName>Krschne</LastName>
+    <FirstName>Peter</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 11th Street</Address>
+    <City>Miami</City>
+    <StateProvince>FL</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>12</Id>
+    <Company>Company L</Company>
+    <LastName>Edwards</LastName>
+    <FirstName>John</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>123 12th Street</Address>
+    <City>Las Vegas</City>
+    <StateProvince>NV</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>13</Id>
+    <Company>Company M</Company>
+    <LastName>Ludick</LastName>
+    <FirstName>Andre</FirstName>
+    <JobTitle>Purchasing Representative</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>456 13th Street</Address>
+    <City>Memphis</City>
+    <StateProvince>TN</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>14</Id>
+    <Company>Company N</Company>
+    <LastName>Grilo</LastName>
+    <FirstName>Carlos</FirstName>
+    <JobTitle>Purchasing Representative</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>456 14th Street</Address>
+    <City>Denver</City>
+    <StateProvince>CO</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>15</Id>
+    <Company>Company O</Company>
+    <LastName>Kupkova</LastName>
+    <FirstName>Helena</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>456 15th Street</Address>
+    <City>Honolulu</City>
+    <StateProvince>HI</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>16</Id>
+    <Company>Company P</Company>
+    <LastName>Goldschmidt</LastName>
+    <FirstName>Daniel</FirstName>
+    <JobTitle>Purchasing Representative</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>456 16th Street</Address>
+    <City>San Francisco</City>
+    <StateProvince>CA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>17</Id>
+    <Company>Company Q</Company>
+    <LastName>Bagel</LastName>
+    <FirstName>Jean Philippe</FirstName>
+    <JobTitle>Owner</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>456 17th Street</Address>
+    <City>Seattle</City>
+    <StateProvince>WA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>18</Id>
+    <Company>Company R</Company>
+    <LastName>Autier Miconi</LastName>
+    <FirstName>Catherine</FirstName>
+    <JobTitle>Purchasing Representative</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>456 18th Street</Address>
+    <City>Boston</City>
+    <StateProvince>MA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>19</Id>
+    <Company>Company S</Company>
+    <LastName>Eggerer</LastName>
+    <FirstName>Alexander</FirstName>
+    <JobTitle>Accounting Assistant</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 19th Street</Address>
+    <City>Los Angelas</City>
+    <StateProvince>CA</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>20</Id>
+    <Company>Company T</Company>
+    <LastName>Li</LastName>
+    <FirstName>George</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 20th Street</Address>
+    <City>New York</City>
+    <StateProvince>NY</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>21</Id>
+    <Company>Company U</Company>
+    <LastName>Tham</LastName>
+    <FirstName>Bernard</FirstName>
+    <JobTitle>Accounting Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 21th Street</Address>
+    <City>Minneapolis</City>
+    <StateProvince>MN</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>22</Id>
+    <Company>Company V</Company>
+    <LastName>Ramos</LastName>
+    <FirstName>Luciana</FirstName>
+    <JobTitle>Purchasing Assistant</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 22th Street</Address>
+    <City>Milwaukee</City>
+    <StateProvince>WI</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>23</Id>
+    <Company>Company W</Company>
+    <LastName>Entin</LastName>
+    <FirstName>Michael</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 23th Street</Address>
+    <City>Portland</City>
+    <StateProvince>OR</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>24</Id>
+    <Company>Company X</Company>
+    <LastName>Hasselberg</LastName>
+    <FirstName>Jonas</FirstName>
+    <JobTitle>Owner</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 24th Street</Address>
+    <City>Salt Lake City</City>
+    <StateProvince>UT</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>25</Id>
+    <Company>Company Y</Company>
+    <LastName>Rodman</LastName>
+    <FirstName>John</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 25th Street</Address>
+    <City>Chicago</City>
+    <StateProvince>IL</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>26</Id>
+    <Company>Company Z</Company>
+    <LastName>Liu</LastName>
+    <FirstName>Run</FirstName>
+    <JobTitle>Accounting Assistant</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 26th Street</Address>
+    <City>Miami</City>
+    <StateProvince>FL</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>27</Id>
+    <Company>Company AA</Company>
+    <LastName>Toh</LastName>
+    <FirstName>Karen</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 27th Street</Address>
+    <City>Las Vegas</City>
+    <StateProvince>NV</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>28</Id>
+    <Company>Company BB</Company>
+    <LastName>Raghav</LastName>
+    <FirstName>Amritansh</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 28th Street</Address>
+    <City>Memphis</City>
+    <StateProvince>TN</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+  <Customers>
+    <Id>29</Id>
+    <Company>Company CC</Company>
+    <LastName>Lee</LastName>
+    <FirstName>Soo Jung</FirstName>
+    <JobTitle>Purchasing Manager</JobTitle>
+    <BusinessPhone>(123)555-0100</BusinessPhone>
+    <FaxNumber>(123)555-0101</FaxNumber>
+    <Address>789 29th Street</Address>
+    <City>Denver</City>
+    <StateProvince>CO</StateProvince>
+    <ZipPostalCode>99999</ZipPostalCode>
+    <CountryRegion>USA</CountryRegion>
+    <Attachments />
+  </Customers>
+</ArrayOfCustomers>

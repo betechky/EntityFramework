@@ -1,0 +1,13 @@
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\bin\Debug\netcoreapp3.1\JsonXml.exe
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\bin\Debug\netcoreapp3.1\JsonXml.deps.json
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\bin\Debug\netcoreapp3.1\JsonXml.runtimeconfig.json
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\bin\Debug\netcoreapp3.1\JsonXml.runtimeconfig.dev.json
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\bin\Debug\netcoreapp3.1\JsonXml.dll
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\bin\Debug\netcoreapp3.1\JsonXml.pdb
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.csprojAssemblyReference.cache
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.AssemblyInfoInputs.cache
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.AssemblyInfo.cs
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.csproj.CoreCompileInputs.cache
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.dll
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.pdb
+C:\Users\Creative\source\repos\EntityFramework\JsonXml\obj\Debug\netcoreapp3.1\JsonXml.genruntimeconfig.cache
