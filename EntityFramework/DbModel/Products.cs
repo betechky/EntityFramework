@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
+using System.Xml.Serialization;
 
 // Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
 // If you have enabled NRTs for your project, then un-comment the following line:
@@ -7,7 +9,8 @@ using System.Collections.Generic;
 
 namespace EntityFramework.DbModel
 {
-    public partial class Products
+    [Serializable()] 
+    public class Products
     {
         public Products()
         {
@@ -29,10 +32,30 @@ namespace EntityFramework.DbModel
         public bool Discontinued { get; set; }
         public int? MinimumReorderQuantity { get; set; }
         public string Category { get; set; }
+
+        [XmlIgnore]
         public byte[] Attachments { get; set; }
 
         public virtual ICollection<InventoryTransactions> InventoryTransactions { get; set; }
         public virtual ICollection<OrderDetails> OrderDetails { get; set; }
         public virtual ICollection<PurchaseOrderDetails> PurchaseOrderDetails { get; set; }
+
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("SupplierIds", SupplierIds);
+            info.AddValue("Id", Id);
+            info.AddValue("ProductCode", ProductCode);
+            info.AddValue("ProductName", ProductName);
+            info.AddValue("Description", Description);
+            info.AddValue("StandardCost", StandardCost);
+            info.AddValue("ListPrice", ListPrice);
+            info.AddValue("ReorderLevel", ReorderLevel);
+            info.AddValue("TargetLevel", TargetLevel);
+            info.AddValue("QuantityPerUnit", QuantityPerUnit);
+            info.AddValue("Discontinued", Discontinued);
+            info.AddValue("MinimumReorderQuantity", MinimumReorderQuantity);
+            info.AddValue("Category", Category);
+
+        }
     }
 }
