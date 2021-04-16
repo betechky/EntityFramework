@@ -16,45 +16,37 @@ namespace EntityFramework
 
             var customersList = context.Customers;
 
-            
-           foreach (var item in customersList)
-           {
-               Console.WriteLine($"{item.LastName} {item.FirstName} {item.JobTitle}");
-           }
-           
-            //Helper.Serializer.ToJson(customersList, "customers.json");
-            // Helper.Serializer.ToXml(customersList, "customers.xml");
-            Helper.Serializer.ToBinary(customersList.ToList(), "customers.dat");
+            //foreach (var item in customersList)
+            //{
+            //    Console.WriteLine($"{item.Company}  {item.LastName} {item.FirstName} {item.City}");
+            //}
 
-            //FileInfo
 
-            List<SerializedFile> fileList = new List<SerializedFile>
+            var cities = customersList.Select(c => c.City).Distinct().ToList();
+            // List<string> citiesList = cities.ToList();
+            cities.Sort();
+            cities.Reverse();
+
+            //foreach (var item in cities)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            string joined = string.Join(", ", cities.ToArray());
+            Console.WriteLine("\n======================Customer in the Cities========================== "+"\n\n" + joined);
+
+            Console.WriteLine("What is the name of city?");
+
+
+            var cityname = Console.ReadLine();
+            string city = cityname;
+            Console.WriteLine("====================Your Results ============================ " + "\n");
+            var cusCityList = customersList.Where(c => c.City.Equals(city)).ToList(); // city == "NY"
+            Console.WriteLine($"There are {cusCityList.Count()} customer in {city}");
+            foreach (var c in cusCityList)
             {
-                new SerializedFile
-                {
-                    Name = "customers.json",
-                    Size = new FileInfo("customers.json").Length
-                },
-                new SerializedFile
-                {
-                    Name = "customers.xml",
-                    Size = new FileInfo("customers.xml").Length
-                },
-                new SerializedFile
-                {
-                    Name = "customers.dat",
-                    Size = new FileInfo("customers.dat").Length
-                }
-            };
-
-            fileList.Sort();
-
-            Console.WriteLine("========================================");
-            foreach (var item in fileList)
-            {
-                Console.WriteLine($"{item.Name} has {item.Size} bytes");
+                Console.WriteLine($"{c.FirstName} {c.LastName}");
             }
-
         }
     }
     public class SerializedFile : IComparable<SerializedFile>
